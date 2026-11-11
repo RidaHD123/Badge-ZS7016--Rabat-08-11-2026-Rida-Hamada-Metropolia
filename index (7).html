@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rida Hamada – Badge ZS7016 – Metropolia UAS Application 2027</title>
+<meta name="description" content="Application of Rida Hamada (badge ZS7016) to Metropolia University of Applied Sciences: Smart Automation and Construction Site Management, autumn 2027.">
+<style>
+:root{--or:#ff6a13;--or2:#ffa05c;--bl:#003580;--bg:#0b0c10;--p:#15171d;--p2:#1e2129;--ln:#2c313c;--tx:#eef1f6;--mu:#a3acba}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:radial-gradient(ellipse at 50% -10%,#2a1608 0,var(--bg) 55%) fixed;color:var(--tx);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;display:flex;flex-direction:column;min-height:100vh}
+html[lang=en] .fi,html[lang=fi] .en{display:none!important}
+a{color:var(--or2)}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--or);outline-offset:2px}
+header{background:linear-gradient(#2b2f3a,#12141a);border-bottom:3px solid var(--or);padding:10px 16px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px}
+.brand svg{flex:none}
+.wm{font-size:26px;font-weight:700;letter-spacing:-.02em;color:#fff}.wm b{color:var(--or)}
+.sub{font-size:12px;color:var(--mu)}
+.badge{background:linear-gradient(#ff8a3d,#d9520a);color:#fff;border-radius:10px;padding:6px 16px;text-align:center;box-shadow:0 0 18px rgba(255,106,19,.45),inset 0 1px 0 rgba(255,255,255,.5)}
+.badge small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.badge strong{font-size:28px;letter-spacing:.08em;line-height:1.1}
+.who{font-size:13px;color:var(--mu);text-align:right}.who b{color:#fff}
+.lang{display:flex;gap:6px}
+.lang button{background:var(--p2);border:1px solid var(--ln);color:#fff;border-radius:6px;padding:4px 12px;font-weight:600}
+html[lang=en] #bEn,html[lang=fi] #bFi{background:var(--or);border-color:var(--or)}
+.main{flex:1;display:flex;min-height:0}
+nav{width:230px;flex:none;background:var(--p);border-right:1px solid var(--ln);padding:12px 8px}
+nav h2{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);margin:8px 8px}
+nav button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--tx);padding:9px 10px;border-radius:6px;border-left:3px solid transparent}
+nav button:hover{background:var(--p2)}
+nav button.on{background:linear-gradient(90deg,rgba(255,106,19,.3),transparent);border-left-color:var(--or);font-weight:600}
+.viz{display:flex;align-items:flex-end;gap:3px;height:36px;margin:14px 10px}
+.viz i{flex:1;background:linear-gradient(var(--or2),var(--or));animation:b 1.1s ease-in-out infinite alternate;border-radius:2px}
+.viz i:nth-child(2n){animation-duration:.8s}.viz i:nth-child(3n){animation-duration:1.4s}.viz i:nth-child(5n){animation-duration:.6s}
+@keyframes b{from{height:15%}to{height:100%}}
+@media (prefers-reduced-motion:reduce){.viz i{animation:none;height:50%}}
+section.pg{display:none;flex:1;overflow:auto;padding:22px 26px 30px;max-width:980px}
+section.pg.on{display:block}
+h1{font-size:26px;margin:0 0 4px}h3{color:var(--or2);margin:22px 0 6px;font-size:18px;border-bottom:1px solid var(--ln);padding-bottom:4px}
+.tag{display:inline-block;background:var(--p2);border:1px solid var(--ln);border-radius:20px;padding:2px 12px;font-size:13px;margin:0 6px 6px 0}
+.card{background:var(--p);border:1px solid var(--ln);border-radius:10px;padding:14px 16px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.btn{display:inline-block;background:linear-gradient(#ff8a3d,#d9520a);color:#fff;border:0;border-radius:8px;padding:9px 18px;font-weight:600;text-decoration:none;margin:4px 6px 4px 0}
+.btn.alt{background:linear-gradient(#2c5db0,#003580)}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--ln);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--p2)}
+.wrapt{overflow-x:auto}
+#note{display:none;background:#3a1f0c;border:1px solid var(--or);border-radius:8px;padding:10px 14px;margin:10px 0}
+.flags{display:flex;gap:10px;align-items:center}
+footer{background:linear-gradient(#262a33,#0e1015);border-top:1px solid var(--ln);padding:8px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.tr{display:flex;align-items:center;gap:10px}
+.orb{width:40px;height:40px;border-radius:50%;border:2px solid #8a9;background:radial-gradient(circle at 35% 30%,#fff,#7fb3ff 25%,#1a4d9c 70%);color:#fff;font-size:15px;box-shadow:0 0 10px rgba(80,150,255,.5)}
+.orb.big{width:50px;height:50px;background:radial-gradient(circle at 35% 30%,#fff,#ffb27a 25%,#d9520a 70%);box-shadow:0 0 12px rgba(255,106,19,.6)}
+.seek{height:6px;width:180px;background:#333;border-radius:3px;overflow:hidden}.seek div{height:100%;width:0;background:var(--or);transition:width .3s}
+.ft{font-size:12px;color:var(--mu)}
+@media(max-width:760px){.main{flex-direction:column}nav{width:auto;display:flex;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--ln)}nav h2,.viz{display:none}nav button{width:auto}.who{text-align:left}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand">
+  <svg width="54" height="36" viewBox="0 0 18 11" role="img" aria-label="Finland flag"><rect width="18" height="11" fill="#fff"/><rect x="5" width="3" height="11" fill="#003580"/><rect y="4" width="18" height="3" fill="#003580"/></svg>
+  <div><div class="wm">metropolia<b>.</b> <span style="font-size:14px;font-weight:400">University of Applied Sciences</span></div>
+  <div class="sub"><span class="en">Application site of Rida Hamada · Study in Europe Rabat · 08/11/2026</span><span class="fi">Rida Hamadan hakemussivusto · Study in Europe Rabat · 8.11.2026</span></div></div>
+ </div>
+ <div class="badge"><small><span class="en">Candidate badge</span><span class="fi">Ehdokkaan badge</span></small><strong>ZS7016</strong></div>
+ <div class="who"><b>RIDA HAMADA – MOROCCO</b><br><a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a><br>
+  <span class="lang"><button id="bEn" onclick="setL('en')">English</button><button id="bFi" onclick="setL('fi')">Suomi</button></span></div>
+</header>
+
+<div class="main">
+<nav aria-label="Menu">
+ <h2><span class="en">Library</span><span class="fi">Kirjasto</span></h2>
+ <button data-p="home" class="on"><span class="en">Overview</span><span class="fi">Yleiskatsaus</span></button>
+ <button data-p="sa"><span class="en">Choice 1 · Smart Automation</span><span class="fi">Valinta 1 · Smart Automation</span></button>
+ <button data-p="csm"><span class="en">Choice 2 · Construction Site Mgmt</span><span class="fi">Valinta 2 · Rakennustyömaan johtaminen</span></button>
+ <button data-p="file"><span class="en">Application file</span><span class="fi">Hakemusaineisto</span></button>
+ <button data-p="docs"><span class="en">Questionnaire & Portfolio</span><span class="fi">Kyselylomake ja portfolio</span></button>
+ <button data-p="contact"><span class="en">Contact</span><span class="fi">Yhteystiedot</span></button>
+ <div class="viz" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</nav>
+
+<div style="flex:1;overflow:auto;min-width:0">
+
+<section class="pg on" id="home">
+<h1><span class="en">Application to Metropolia – Autumn 2027</span><span class="fi">Hakemus Metropoliaan – syksy 2027</span></h1>
+<p><span class="tag">Badge ZS7016</span><span class="tag">Study in Europe Rabat</span><span class="tag"><span class="en">8 Nov 2026</span><span class="fi">8.11.2026</span></span></p>
+<p class="en">I am Rida Hamada, a Moroccan Electronics Technician for Automation Technology recognised by IHK-FOSA in Germany. I met Metropolia's representative in Rabat, discussed my case in person, and received my candidate badge. This site presents my two programme choices with full honesty: what I own, what is still missing, and my openness to bridging studies and RPL (AHOT).</p>
+<p class="fi">Olen Rida Hamada, marokkolainen automaatiotekniikan elektroniikka-asentaja, jonka pätevyyden IHK-FOSA on tunnustanut Saksassa. Tapasin Metropolian edustajan Rabatissa, kävimme tapaukseni läpi kasvokkain ja sain ehdokaskoodini (badge). Tällä sivustolla esittelen kaksi ohjelmavalintaani täysin avoimesti: mitä osaan, mitä vielä puuttuu ja miten olen valmis siltaopintoihin ja aiemmin hankitun osaamisen tunnustamiseen (AHOT).</p>
+<div class="grid">
+ <div class="card"><b><span class="en">Choice 1</span><span class="fi">Valinta 1</span></b><br>Bachelor of Engineering, Smart Automation<br><span class="ft">240 ECTS · 4 <span class="en">years</span><span class="fi">vuotta</span> · Myyrmäki</span><br><button class="btn" data-p="sa"><span class="en">Open</span><span class="fi">Avaa</span></button></div>
+ <div class="card"><b><span class="en">Choice 2</span><span class="fi">Valinta 2</span></b><br>Bachelor of Construction Management, Construction Site Management<br><span class="ft">210 ECTS · 3.5 <span class="en">years</span><span class="fi">vuotta</span> · Myllypuro</span><br><button class="btn" data-p="csm"><span class="en">Open</span><span class="fi">Avaa</span></button></div>
+</div>
+<h3><span class="en">Application dates (autumn 2027 intake)</span><span class="fi">Hakuajat (syksyn 2027 aloitus)</span></h3>
+<p class="en">Separate Application: 1.12.2026 08:00 – 31.3.2027 15:00. Joint Application 1 Spring 2027: 7.1.2027 08:00 – 21.1.2027 15:00. Apply via Studyinfo.fi through the UAS International Exam.</p>
+<p class="fi">Erillishaku: 1.12.2026 klo 8.00 – 31.3.2027 klo 15.00. Kevään 2027 yhteishaku 1: 7.1.2027 klo 8.00 – 21.1.2027 klo 15.00. Haku tapahtuu Opintopolussa (Studyinfo.fi) UAS International Exam -kokeen kautta.</p>
+</section>
+
+<section class="pg" id="sa">
+<h1>Smart Automation</h1>
+<p><span class="tag">Bachelor of Engineering</span><span class="tag">240 ECTS</span><span class="tag">4 <span class="en">years</span><span class="fi">vuotta</span></span><span class="tag">Myyrmäki Campus</span></p>
+<div class="en">
+<h3>Motivation letter – Choice 1 (summary)</h3>
+<p>Dear Admissions Team, Bridging Team and Processing Team at Metropolia: I am writing to present my candidacy for the Bachelor of Engineering in Smart Automation starting in autumn 2027. Smart Automation is the exact continuation of my path – not a repetition, not a change of direction.</p>
+<p>The Metropolia representative in Rabat examined my German recognition file and found this programme suitable for my situation. After that meeting I understood that Smart Automation is the only programme that closes my German Qualifizierungsplan, uses my industrial experience, and turns a recognised technician into a European engineer.</p>
+<h3>Why this programme</h3>
+<p>The IHK Berlin Qualifizierungsplan (2025) says I still must complete Digitalisation, Data Protection and Information Security. Smart Automation teaches exactly these: cyber-physical systems, digital twins, GDPR in IoT and automation, and cybersecurity for embedded systems and cloud. Germany told me what is missing; Metropolia teaches what is missing.</p>
+<h3>Recognition estimate</h3>
+<p>At entry: 0 ECTS automatically. After enrolment through RPL/AHOT and bridging: potentially 20–35 ECTS (IHK-FOSA) and 10–20 ECTS (DTS Electromechanics). Graduation: B.Eng., 240 ECTS, EQF 6.</p>
+<h3>What I bring</h3>
+<p>Commissioning of turbines and cogeneration plants, electrical systems up to 6.6 kV, switchgear testing 1–36 kV, HART, SCADA, DCS and HMI; Cisco cybersecurity, Azure-900 and IAEA information security certificates. My long-term academic project, IMPERIUM RH, is a research and training tool for industrial instrumentation and workplace safety, GDPR-compliant and developed under teacher supervision.</p>
+<p><b>Programme contact:</b> <a href="mailto:smartsolutions@metropolia.fi">smartsolutions@metropolia.fi</a></p>
+</div>
+<div class="fi">
+<h3>Motivaatiokirje – Valinta 1 (tiivistelmä)</h3>
+<p>Hyvä Metropolian opiskelijavalinta-, siltaopinto- ja hakemuskäsittelytiimi: esitän hakemukseni insinööri (AMK) -tutkinto-ohjelmaan Smart Automation, opinnot alkavat syksyllä 2027. Smart Automation on polkuni täsmällinen jatko – ei toistoa eikä suunnanmuutosta.</p>
+<p>Metropolian edustaja Rabatissa tutki saksalaisen tunnustamisaineistoni ja totesi ohjelman sopivaksi tilanteeseeni. Tapaamisen jälkeen ymmärsin, että Smart Automation on ainoa ohjelma, joka täyttää saksalaisen Qualifizierungsplanini aukot, hyödyntää teollisuuskokemustani ja tekee tunnustetusta teknikosta eurooppalaisen insinöörin.</p>
+<h3>Miksi tämä ohjelma</h3>
+<p>IHK Berlinin Qualifizierungsplan (2025) edellyttää, että suoritan vielä digitalisaation, tietosuojan ja tietoturvan. Smart Automation opettaa juuri nämä: kyberfyysiset järjestelmät, digitaaliset kaksoset, GDPR IoT:ssä ja automaatiossa sekä sulautettujen järjestelmien ja pilvipalvelujen tietoturva. Saksa kertoi, mitä puuttuu; Metropolia opettaa sen.</p>
+<h3>Tunnustamisarvio</h3>
+<p>Alussa: 0 op automaattisesti. Ilmoittautumisen jälkeen AHOT:in ja siltaopintojen kautta mahdollisesti 20–35 op (IHK-FOSA) ja 10–20 op (DTS Electromechanics). Valmistuessa: insinööri (AMK), 240 op, EQF 6.</p>
+<h3>Mitä tuon mukanani</h3>
+<p>Turbiinien ja yhteistuotantolaitosten käyttöönotto, sähköjärjestelmät 6,6 kV:iin asti, kojeistotestaus 1–36 kV, HART, SCADA, DCS ja HMI; Ciscon kyberturvallisuus-, Azure-900- ja IAEA-tietoturvasertifikaatit. Pitkän aikavälin akateeminen hankkeeni IMPERIUM RH on tutkimus- ja koulutusväline teollisuuden instrumentointiin ja työturvallisuuteen, GDPR-yhteensopiva ja opettajien ohjauksessa kehitettävä.</p>
+<p><b>Ohjelman yhteyshenkilö:</b> <a href="mailto:smartsolutions@metropolia.fi">smartsolutions@metropolia.fi</a></p>
+</div>
+</section>
+
+<section class="pg" id="csm">
+<h1>Construction Site Management</h1>
+<p><span class="tag">Bachelor of Construction Management</span><span class="tag">210 ECTS</span><span class="tag">3.5 <span class="en">years</span><span class="fi">vuotta</span></span><span class="tag">Myllypuro Campus</span></p>
+<div class="en">
+<h3>Motivation letter – Choice 2 (summary)</h3>
+<p>This is my second choice at Metropolia, after Smart Automation, presented with the same seriousness and honesty. It uses the other part of my real experience: work on industrial and commissioning sites with multidisciplinary teams under safety rules and deadlines.</p>
+<h3>Why this programme</h3>
+<p>It qualifies a person for site management in Finland, is taught bilingually in English and Finnish, and includes 30 ECTS of Finnish language studies, 30 ECTS of work placement and a 10 ECTS company-commissioned innovation project. Structure: basic studies 15 + common vocational 95 + house construction 20 + innovation project 10 + Finnish 30 + work placement 30 + thesis 10 = 210 ECTS.</p>
+<h3>Finnish law on foremen</h3>
+<p>I understand that acting as a responsible foreman in construction engineering work is regulated by the Act on Demonstration of Competence: the degree alone is not enough, work experience is also required. My IHK qualification alone does not give this right; a Finnish degree plus Finnish experience will.</p>
+<h3>Recognition estimate</h3>
+<p>At entry: 0 ECTS automatically. After enrolment through RPL/AHOT and bridging: potentially 15–30 ECTS. Graduation: Bachelor of Construction Management, 210 ECTS, EQF 6. The Qualifizierungsplan topics (Digitalisation, Data Protection, Information Security) map to BIM, digital site management, GDPR on sites and secure handling of project documents.</p>
+<p><b>Programme contact:</b> Senior Lecturer Jouni Ruotsalainen · <a href="mailto:Jouni.Ruotsalainen@metropolia.fi">Jouni.Ruotsalainen@metropolia.fi</a> · <a href="tel:+358406386187">+358 40 638 6187</a></p>
+</div>
+<div class="fi">
+<h3>Motivaatiokirje – Valinta 2 (tiivistelmä)</h3>
+<p>Tämä on toinen valintani Metropoliassa Smart Automationin jälkeen, ja esitän sen samalla vakavuudella ja avoimuudella. Se hyödyntää toista osaa todellisesta kokemuksestani: työtä teollisuus- ja käyttöönottotyömailla monialaisissa tiimeissä turvallisuussääntöjen ja aikataulujen puitteissa.</p>
+<h3>Miksi tämä ohjelma</h3>
+<p>Ohjelma antaa valmiudet työmaan johtotehtäviin Suomessa, se toteutetaan toiminnallisesti kaksikielisenä (englanti ja suomi) ja sisältää 30 op suomen kielen opintoja, 30 op harjoittelua sekä 10 op yrityksen toimeksiannosta tehtävän innovaatioprojektin. Rakenne: perusopinnot 15 + yhteiset ammattiopinnot 95 + talonrakennus 20 + innovaatioprojekti 10 + suomi 30 + harjoittelu 30 + opinnäytetyö 10 = 210 op.</p>
+<h3>Vastaavan työnjohtajan pätevyys Suomessa</h3>
+<p>Ymmärrän, että vastaavana työnjohtajana toimiminen rakennustekniikan töissä on säädelty pätevyyden toteamisesta annetulla lailla: tutkinto ei yksin riitä, vaan vaaditaan myös työkokemusta. IHK-pätevyyteni ei yksin anna tätä oikeutta; suomalainen tutkinto ja suomalainen työkokemus antavat.</p>
+<h3>Tunnustamisarvio</h3>
+<p>Alussa: 0 op automaattisesti. Ilmoittautumisen jälkeen AHOT:in ja siltaopintojen kautta mahdollisesti 15–30 op. Valmistuessa: rakennusalan tradenomi/insinööri (Bachelor of Construction Management), 210 op, EQF 6. Qualifizierungsplanin aiheet (digitalisaatio, tietosuoja, tietoturva) vastaavat BIM:iä, digitaalista työmaanjohtoa, GDPR:ää työmailla ja hankeasiakirjojen turvallista käsittelyä.</p>
+<p><b>Ohjelman yhteyshenkilö:</b> lehtori Jouni Ruotsalainen · <a href="mailto:Jouni.Ruotsalainen@metropolia.fi">Jouni.Ruotsalainen@metropolia.fi</a> · <a href="tel:+358406386187">+358 40 638 6187</a></p>
+</div>
+</section>
+
+<section class="pg" id="file">
+<h1><span class="en">Application file</span><span class="fi">Hakemusaineisto</span></h1>
+<div class="en">
+<h3>Who I am</h3>
+<p>30 years old, from Safi, Morocco. Baccalaureate in Physical Sciences; Technicien Spécialisé in Electromechanics (Casablanca, 2020); Elektroniker für Automatisierungstechnik, IHK-FOSA (2024); Qualifizierungsplan, IHK Berlin (2025). Work: Electrician at Actemium / GMCE II, Jorf Lasfar (11/2021–09/2022); Control Room Technician at Univers Acier; Industrial Marking Technician at SE Solution. Training 2025: Cisco cybersecurity, Microsoft Azure-900, IAEA Information and Computer Security, UNCTAD/UNSD/WTO trade statistics.</p>
+<p>My Baccalaureate grade is below 12/20. I state this honestly and therefore apply through the UAS International Exam, which measures what I can do today.</p>
+<h3>Qualifications in the European framework</h3>
+<div class="wrapt"><table><tr><th>Qualification</th><th>EQF / ISCED</th><th>ECTS</th></tr>
+<tr><td>Baccalaureate, Morocco</td><td>4 / 3</td><td>0 (access)</td></tr>
+<tr><td>DTS Electromechanics, Casablanca 2020</td><td>5 / 5</td><td>0 automatic; RPL after enrolment</td></tr>
+<tr><td>IHK-FOSA Elektroniker für Automatisierungstechnik 2024 (~4,200 h)</td><td>4 (DQR 4) / 3–4</td><td>0 automatic; RPL after enrolment</td></tr>
+<tr><td>Qualifizierungsplan IHK Berlin 2025</td><td>4</td><td>Defines missing modules</td></tr>
+<tr><td>Cisco, Azure-900, IAEA, UNCTAD (2025)</td><td>no EQF level</td><td>0 automatic; supports RPL</td></tr></table></div>
+<h3>Three kinds of recognition</h3>
+<p>Academic recognition is decided by Metropolia. Professional recognition for regulated professions is decided by OPH (Finnish ENIC-NARIC) under Directive 2005/36/EC. Labour-market recognition is decided by employers. I apply first to Metropolia because it decides my academic recognition.</p>
+<h3>Bridging – I do not ask you to ignore what is missing</h3>
+<p>Missing: Digitalisation, Data Protection, Information Security (Qualifizierungsplan). I am open to bridging studies, preparatory modules, RPL demonstrations, interviews, tests and a personal study plan (HOPS) built with your teachers.</p>
+<h3>Fees and residence</h3>
+<p>Tuition for non-EU/EEA students: 11,500 € per academic year for the 2027 intake. Application fee: 100 € (non-refundable). Residence permit: proof of 800 € per month (9,600 € per year) plus health insurance. I understand the One Study Right rule in force since 1 August 2026. I am currently unemployed with a limited budget and ask for no exception: only a fair evaluation.</p>
+<h3>My request</h3>
+<p>Admissions: evaluate me through the UAS International Exam on current competence. Bridging/RPL: propose the modules you consider necessary; I accept. Processing: tell me if any document is missing. I do not ask for an exception; I ask for a fair, European evaluation.</p>
+</div>
+<div class="fi">
+<h3>Kuka olen</h3>
+<p>30-vuotias, kotoisin Safista, Marokosta. Ylioppilastutkinto-vastaava Baccalauréat (fysiikan tieteet); Technicien Spécialisé, sähkömekaniikka (Casablanca, 2020); Elektroniker für Automatisierungstechnik, IHK-FOSA (2024); Qualifizierungsplan, IHK Berlin (2025). Työkokemus: sähköasentaja, Actemium / GMCE II, Jorf Lasfar (11/2021–09/2022); valvomoteknikko, Univers Acier; teollisuusmerkintöjen teknikko, SE Solution. Koulutus 2025: Cisco-kyberturvallisuus, Microsoft Azure-900, IAEA Information and Computer Security, UNCTAD/UNSD/WTO-kauppatilastot.</p>
+<p>Baccalauréat-arvosanani on alle 12/20. Kerron tämän rehellisesti, joten haen UAS International Exam -kokeen kautta, joka mittaa, mitä osaan tänään.</p>
+<h3>Tutkinnot eurooppalaisessa viitekehyksessä</h3>
+<div class="wrapt"><table><tr><th>Tutkinto</th><th>EQF / ISCED</th><th>Opintopisteet</th></tr>
+<tr><td>Baccalauréat, Marokko</td><td>4 / 3</td><td>0 (pääsyoikeus)</td></tr>
+<tr><td>DTS Electromechanics, Casablanca 2020</td><td>5 / 5</td><td>0 automaattisesti; AHOT ilmoittautumisen jälkeen</td></tr>
+<tr><td>IHK-FOSA Elektroniker für Automatisierungstechnik 2024 (~4 200 h)</td><td>4 (DQR 4) / 3–4</td><td>0 automaattisesti; AHOT ilmoittautumisen jälkeen</td></tr>
+<tr><td>Qualifizierungsplan IHK Berlin 2025</td><td>4</td><td>Määrittää puuttuvat moduulit</td></tr>
+<tr><td>Cisco, Azure-900, IAEA, UNCTAD (2025)</td><td>ei EQF-tasoa</td><td>0 automaattisesti; tukee AHOT:ia</td></tr></table></div>
+<h3>Kolme tunnustamisen tasoa</h3>
+<p>Akateemisesta tunnustamisesta päättää Metropolia. Säännellyn ammatin ammatillisesta tunnustamisesta päättää OPH (Suomen ENIC-NARIC) direktiivin 2005/36/EY nojalla. Työmarkkinoilla tunnustamisesta päättävät työnantajat. Haen ensin Metropoliaan, koska se päättää akateemisesta tunnustamisesta.</p>
+<h3>Siltaopinnot – en pyydä sivuuttamaan puuttuvaa</h3>
+<p>Puuttuvat: digitalisaatio, tietosuoja, tietoturva (Qualifizierungsplan). Olen valmis siltaopintoihin, valmentaviin moduuleihin, AHOT-näyttöihin, haastatteluihin, kokeisiin ja henkilökohtaiseen opintosuunnitelmaan (HOPS), joka laaditaan opettajienne kanssa.</p>
+<h3>Maksut ja oleskelu</h3>
+<p>Lukukausimaksu EU/ETA-maiden ulkopuolisille: 11 500 € lukuvuodessa vuoden 2027 aloittajille. Hakemusmaksu: 100 € (ei palauteta). Opiskelijan oleskelulupa: osoitus 800 € kuukaudessa (9 600 € vuodessa) sekä sairausvakuutus. Ymmärrän 1.8.2026 voimaan tulleen yhden opiskeluoikeuden säännön. Olen tällä hetkellä työtön ja budjettini on rajallinen; en pyydä poikkeusta, vain oikeudenmukaista arviointia.</p>
+<h3>Pyyntöni</h3>
+<p>Opiskelijavalinta: arvioikaa minut UAS International Exam -kokeella nykyisen osaamiseni perusteella. Silta/AHOT: ehdottakaa tarpeelliseksi katsomanne moduulit; hyväksyn ne. Käsittely: kertokaa, jos jokin asiakirja puuttuu. En pyydä poikkeusta vaan oikeudenmukaista, eurooppalaista arviointia.</p>
+</div>
+</section>
+
+<section class="pg" id="docs">
+<h1><span class="en">Questionnaire & Portfolio</span><span class="fi">Kyselylomake ja portfolio</span></h1>
+<p class="en">Before the Rabat event I prepared an evaluation questionnaire about my case. The answers received and my professional portfolio are part of my application file.</p>
+<p class="fi">Ennen Rabatin tapahtumaa laadin arviointikyselyn tapauksestani. Saamani vastaukset ja ammatillinen portfolioni kuuluvat hakemusaineistooni.</p>
+<button class="btn" onclick="openDoc('q')"><span class="en">Questionnaire</span><span class="fi">Kyselylomake</span></button>
+<button class="btn alt" onclick="openDoc('p')"><span class="en">Portfolio</span><span class="fi">Portfolio</span></button>
+<div id="note"><span class="en">This document is provided on request. Please write to </span><span class="fi">Asiakirja toimitetaan pyynnöstä. Ota yhteyttä: </span><a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a></div>
+</section>
+
+<section class="pg" id="contact">
+<h1><span class="en">Contact</span><span class="fi">Yhteystiedot</span></h1>
+<div class="grid">
+<div class="card"><b><span class="en">Candidate</span><span class="fi">Hakija</span></b><br>Rida Hamada – Morocco<br>Badge: <b>ZS7016</b><br>Event: Study in Europe Rabat · <span class="en">8 Nov 2026</span><span class="fi">8.11.2026</span><br><a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a></div>
+<div class="card"><b>Metropolia University of Applied Sciences</b><br><span class="en">Visiting address:</span><span class="fi">Käyntiosoite:</span> Myllypurontie 1, Helsinki, Finland<br><span class="en">Postal address:</span><span class="fi">Postiosoite:</span> PO BOX 4000, FI-00079 Metropolia, Finland<br>Tel. <a href="tel:+358974245000">+358 9 7424 5000</a></div>
+<div class="card"><b><span class="en">Admissions</span><span class="fi">Hakijapalvelut</span></b><br><a href="mailto:admissions@metropolia.fi">admissions@metropolia.fi</a><br>Tel. +358 9 7424 5902<br><span class="en">Mon–Wed 10 am – 12 pm</span><span class="fi">ma–ke klo 10–12</span></div>
+</div>
+<div class="flags card" style="margin-top:16px">
+ <svg width="90" height="58" viewBox="0 0 18 11" role="img" aria-label="Finland flag"><rect width="18" height="11" fill="#fff"/><rect x="5" width="3" height="11" fill="#003580"/><rect y="4" width="18" height="3" fill="#003580"/></svg>
+ <svg width="54" height="64" viewBox="0 0 60 70" role="img" aria-label="Finland coat of arms (simplified)"><path d="M6 14h48v26c0 16-12 25-24 30C18 65 6 56 6 40z" fill="#c8102e" stroke="#e8b923" stroke-width="3"/><path d="M18 10l4-6 4 5 4-6 4 6 4-5 4 6z" fill="#e8b923"/><path d="M20 52c2-12 0-18 4-24l4-4 6 2 4 8-6 2 2 10-6-2-2 8z" fill="#e8b923"/><path d="M38 24l8-8" stroke="#e8b923" stroke-width="3"/></svg>
+ <span class="ft"><span class="en">Republic of Finland – flag and (simplified) coat of arms</span><span class="fi">Suomen tasavalta – lippu ja (yksinkertaistettu) vaakuna</span></span>
+</div>
+</section>
+</div>
+</div>
+
+<footer>
+ <div class="tr"><button class="orb" id="prev" aria-label="Previous">&#9664;</button><button class="orb big" id="next" aria-label="Next">&#9654;</button>
+ <div><div id="np" style="font-size:14px;font-weight:600"></div><div class="seek"><div id="sk"></div></div></div></div>
+ <div class="ft">Rida Hamada · ZS7016 · Metropolia UAS · <a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a></div>
+</footer>
+
+<script>
+(function(){
+var URLS={q:"",p:""}; /* put the real Questionnaire / Portfolio links between the quotes */
+var order=["home","sa","csm","file","docs","contact"];
+var names={en:{home:"Overview",sa:"Smart Automation",csm:"Construction Site Management",file:"Application file",docs:"Questionnaire & Portfolio",contact:"Contact"},
+fi:{home:"Yleiskatsaus",sa:"Smart Automation",csm:"Rakennustyömaan johtaminen",file:"Hakemusaineisto",docs:"Kyselylomake ja portfolio",contact:"Yhteystiedot"}};
+var cur="home";
+function np(){var l=document.documentElement.lang==="fi"?"fi":"en";document.getElementById("np").textContent="\u25B6 "+names[l][cur];}
+function show(id){
+ if(order.indexOf(id)<0)id="home";
+ cur=id;
+ var s=document.querySelectorAll("section.pg"),i;
+ for(i=0;i<s.length;i++)s[i].className="pg"+(s[i].id===id?" on":"");
+ var b=document.querySelectorAll("nav button");
+ for(i=0;i<b.length;i++)b[i].className=b[i].getAttribute("data-p")===id?"on":"";
+ document.getElementById("sk").style.width=((order.indexOf(id)+1)/order.length*100)+"%";
+ np();
+ try{if(location.hash!=="#"+id)history.replaceState(null,"","#"+id);}catch(e){}
+}
+function go(d){show(order[(order.indexOf(cur)+d+order.length)%order.length]);}
+window.setL=function(l){
+ document.documentElement.lang=l;
+ try{localStorage.setItem("rh-lang",l);}catch(e){}
+ np();
+};
+window.openDoc=function(k){
+ if(URLS[k]){window.open(URLS[k],"_blank","noopener");}
+ else{document.getElementById("note").style.display="block";}
+};
+var all=document.querySelectorAll("[data-p]"),i;
+for(i=0;i<all.length;i++){all[i].addEventListener("click",function(){show(this.getAttribute("data-p"));});}
+document.getElementById("prev").addEventListener("click",function(){go(-1);});
+document.getElementById("next").addEventListener("click",function(){go(1);});
+var l="en";
+try{l=localStorage.getItem("rh-lang")||(((navigator.language||"").slice(0,2)==="fi")?"fi":"en");}catch(e){}
+document.documentElement.lang=(l==="fi")?"fi":"en";
+show((location.hash||"").replace("#","")||"home");
+})();
+</script>
+</body>
+</html>
